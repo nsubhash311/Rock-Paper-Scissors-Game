@@ -80,7 +80,7 @@ font-family: Asap,sans-serif;
 
 .choice:hover {
     cursor: pointer;
-    background: #24272e;
+    background: #191e2c;
 }
 
 #action-message {
@@ -90,4 +90,19 @@ font-family: Asap,sans-serif;
     font-weight: bold;
     font-size: 20px;
     margin-top: 20px;
+}
+
+.green-glow{
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow{
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.yellow-glow{
+    border: 4px solid #f7c72d;
+    box-shadow: 0 0 10px #f4f800;
 }
